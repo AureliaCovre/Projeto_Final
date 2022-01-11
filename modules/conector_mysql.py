@@ -88,6 +88,26 @@ class Interface_db_mysql():
             print(str(e))
         finally:
             self.desconectar(con,cursor)
+
+    def insert2(self, de_onde, argumentos, valores, cursor, con):
+        """Função genérica para inserir um dado no banco de dados
+
+        Args:
+            de_onde (string): de qual tabela
+            argumentos (string): colunas da tabela a ser inserida ? (dentro do where)
+            valores (string): valores dos dados a ser inserido 
+        Returns:
+            cursor.fetchall(): retorna tudo que for encontrado pelo cursor
+        """
+        try:
+            # con, cursor = self.conectar()
+            query = "insert into " + de_onde + argumentos + " values " + valores + ";"
+            cursor.execute(query)
+            return cursor.fetchall()
+        except Exception as e:
+            print(str(e))
+        # finally:
+            # self.desconectar(con,cursor)
             
     def update(self, de_onde, coluna, novo_dado, outros_dados):
         """Função genérica para alterar um dado no banco de dados
