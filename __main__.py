@@ -23,22 +23,28 @@ if __name__ == "__main__":
         
         dados_empreendimento.dropna(axis=0, subset=["NomeConjunto", "DataGeracaoConjunto", "PeriodoReferencia", "CNPJ_Distribuidora", "SigAgente", "NomAgente", "CodClasseConsumo", "ClasseClasseConsumo", "CodigoSubgrupoTarifario", "GrupoSubgrupoTarifario", "codUFibge", "SigUF", "codRegiao", "NomRegiao", "CodMunicipioIbge", "NomMunicipio", "CodCEP", "TipoConsumidor", "NumCPFCNPJ", "NomTitularUC", "CodGD", "DthConexao", "CodModalidade", "DscModalidade", "QtdUCRecebeCredito", "TipoGeracao", "FonteGeracao", "Porte", "PotenciaInstaladaKW", "MdaLatitude","MdaLongitude"], inplace=True)
         
+        dados_empreendimento['PotenciaInstaladaKW'] = dados_empreendimento['PotenciaInstaladaKW'].str.replace(",", ".")
         
         con, cursor = interface_mysql.conectar()
         
+        contador = 0
+        
         # Inserindo no banco MySQL      
         for coluna, linha in dados_empreendimento.iterrows():        
-                        
+            contador = contador + 1            
             linha[1] = datetime.combine(datetime.strptime(linha[1], '%d/%m/%Y %H:%M').date(), datetime.strptime(linha[1], '%d/%m/%Y %H:%M').time()) #altera o formato da data
             linha[21] = datetime.strptime(linha[21], '%d/%m/%Y').date()  #altera o formato da data
+            
             
         #insere os dados limpos na tabela empreendimentosGD
             
             valores = f'("{linha[0]}", "{linha[1]}", "{linha[2]}", "{linha[3]}", "{linha[4]}", "{linha[5]}", {linha[6]}, "{linha[7]}", {linha[8]}, "{linha[9]}", "{linha[10]}", "{linha[11]}", "{linha[12]}", "{linha[13]}", {linha[14]}, "{linha[15]}", "{linha[16]}", "{linha[17]}", "{linha[18]}", "{linha[19]}", "{linha[20]}", "{linha[21]}", "{linha[22]}", "{linha[23]}", {linha[24]}, "{linha[25]}", "{linha[26]}", "{linha[27]}", {linha[28]}, {linha[29]}, {linha[30]})'
-            # print(valores)
-            # break
+            if contador < 10:
+                interface_mysql.insert2("empreendimentosgd","(NomeConjunto, DataGeracaoConjunto, PeriodoReferencia, CNPJ_Distribuidora, SigAgente, NomAgente, CodClasseConsumo, ClasseClasseConsumo, CodigoSubgrupoTarifario, GrupoSubgrupoTarifario, codUFibge, SigUF, codRegiao, NomRegiao, CodMunicipioIbge, NomMunicipio, CodCEP, TipoConsumidor, NumCPFCNPJ, NomTitularUC, CodGD, DthConexao, CodModalidade, DscModalidade, QtdUCRecebeCredito, TipoGeracao, FonteGeracao, Porte, PotenciaInstaladaKW, MdaLatitude, MdaLongitude)",valores, cursor, con)
+            else:    
+                break
                                                             #NomeConjunto  DataGeracaoConjunto  PeriodoReferencia  CNPJ_Distribuidora  SigAgente  NomAgente  CodClasseConsumo  ClasseClasseConsumo  CodigoSubgrupoTarifario  GrupoSubgrupoTarifario  codUFibge  SigUF  codRegiao  NomRegiao  CodMunicipioIbge  NomMunicipio  CodCEP  TipoConsumidor  NumCPFCNPJ  NomTitularUC  CodGD  DthConexao  CodModalidade  DscModalidade  QtdUCRecebeCredito  TipoGeracao  FonteGeracao  Porte  PotenciaInstaladaKW  MdaLatitude  MdaLongitude 
-            interface_mysql.insert2("empreendimentosgd","(NomeConjunto, DataGeracaoConjunto, PeriodoReferencia, CNPJ_Distribuidora, SigAgente, NomAgente, CodClasseConsumo, ClasseClasseConsumo, CodigoSubgrupoTarifario, GrupoSubgrupoTarifario, codUFibge, SigUF, codRegiao, NomRegiao, CodMunicipioIbge, NomMunicipio, CodCEP, TipoConsumidor, NumCPFCNPJ, NomTitularUC, CodGD, DthConexao, CodModalidade, DscModalidade, QtdUCRecebeCredito, TipoGeracao, FonteGeracao, Porte, PotenciaInstaladaKW, MdaLatitude, MdaLongitude)",valores, cursor, con)
+            # interface_mysql.insert2("empreendimentosgd","(NomeConjunto, DataGeracaoConjunto, PeriodoReferencia, CNPJ_Distribuidora, SigAgente, NomAgente, CodClasseConsumo, ClasseClasseConsumo, CodigoSubgrupoTarifario, GrupoSubgrupoTarifario, codUFibge, SigUF, codRegiao, NomRegiao, CodMunicipioIbge, NomMunicipio, CodCEP, TipoConsumidor, NumCPFCNPJ, NomTitularUC, CodGD, DthConexao, CodModalidade, DscModalidade, QtdUCRecebeCredito, TipoGeracao, FonteGeracao, Porte, PotenciaInstaladaKW, MdaLatitude, MdaLongitude)",valores, cursor, con)
             
         interface_mysql.desconectar(con, cursor)
         
