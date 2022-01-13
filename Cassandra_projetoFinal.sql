@@ -5,7 +5,7 @@ CREATE KEYSPACE IF NOT EXISTS projeto_final WITH replication = {
 
 use projeto_final;
 
-create table if not exists "projeto_final"."empreendimentosGD"(
+create table if not exists empreendimentosGD(
     id uuid primary key,
     NomeConjunto text,
     DataGeracaoConjunto TIMESTAMP,
@@ -40,7 +40,7 @@ create table if not exists "projeto_final"."empreendimentosGD"(
     MdaLongitude float,
 );
 
-create table if not exists "projeto_final"."tarifaMediaFornecimento"(
+create table if not exists tarifaMediaFornecimento(
 	ideTarifaMediaFornecimento int primary key,
     nomClasseConsumo text,
     nomRegiao text,
@@ -50,7 +50,7 @@ create table if not exists "projeto_final"."tarifaMediaFornecimento"(
     dthProcessamento TIMESTAMP,
 );
 
-create table if not exists "projeto_final"."tarifaResidencial"(
+create table if not exists tarifaResidencial(
 	ideTarifaFornecimento int primary key,
     nomConcessao text,
     SigDistribuidora text,
@@ -66,7 +66,7 @@ create table if not exists "projeto_final"."tarifaResidencial"(
     DthProcessamento TIMESTAMP, 
 );
 
-create table if not exists "projeto_final"."geracaoDistribuida"(
+create table if not exists geracaoDistribuida(
 	ideGeracaoDistribuida int primary key,
     nomGeracaoDistribuida text,
     sigGeracaoDistribuida text,
