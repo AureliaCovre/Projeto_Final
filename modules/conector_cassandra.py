@@ -6,7 +6,7 @@ class Interface_db_cassandra():
     session = ""
     
     #TODO: FAZER TRATAMENTO DE DADOS
-    def __init__(self, database = "soulcode"):
+    def __init__(self, database = "projeto_final"):
         self.cluster = Cluster()
         self.set_session(database)
         
