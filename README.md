@@ -16,3 +16,6 @@ Link das bases de dados:
 - <a href="https://www.aneel.gov.br/dados/tarifas">Tarifas</a>  Tarifas médias por classe de consumo e região - Quantidade de linhas: 2230
    
 - <a href="https://dados.gov.br/dataset/geracao-distribuida">Série histórica de empreendimentos de geração distribuída</a> - Quantidade de linhas: 145 
+
+Link do Trello:
+  - <a href="https://trello.com/b/Y3tsBQuz/projeto-final-energia">Trello</a> 
