@@ -1,0 +1,145 @@
+ideGeracaoDistribuida;nomGeracaoDistribuida;sigGeracaoDistribuida;qtdUsina;mdaPotenciaInstaladakW;mesReferencia;anoReferencia;dthProcessamento
+1;Central Geradora Eolielétrica;EOL;0;0.00;12;2008;24/07/2019 00:00
+2;Central Geradora Eolielétrica;EOL;0;0.00;12;2011;24/07/2019 00:00
+3;Central Geradora Eolielétrica;EOL;0;0.00;12;2012;24/07/2019 00:00
+4;Central Geradora Eolielétrica;EOL;3;12.00;12;2013;24/07/2019 00:00
+5;Central Geradora Eolielétrica;EOL;1;3.50;12;2014;24/07/2019 00:00
+6;Central Geradora Eolielétrica;EOL;2;6.30;12;2015;24/07/2019 00:00
+7;Central Geradora Eolielétrica;EOL;3;5005.00;12;2016;24/07/2019 00:00
+8;Central Geradora Eolielétrica;EOL;0;0.00;12;2017;24/07/2019 00:00
+9;Central Geradora Eolielétrica;EOL;0;0.00;12;2018;24/07/2019 00:00
+10;Central Geradora Eolielétrica;EOL;0;0.00;3;2010;24/07/2019 00:00
+11;Central Geradora Eolielétrica;EOL;0;0.00;3;2012;24/07/2019 00:00
+12;Central Geradora Eolielétrica;EOL;0;0.00;3;2013;24/07/2019 00:00
+13;Central Geradora Eolielétrica;EOL;5;28.10;3;2014;24/07/2019 00:00
+14;Central Geradora Eolielétrica;EOL;6;21.90;3;2015;24/07/2019 00:00
+15;Central Geradora Eolielétrica;EOL;1;3.50;3;2016;24/07/2019 00:00
+16;Central Geradora Eolielétrica;EOL;3;5003.40;3;2017;24/07/2019 00:00
+17;Central Geradora Eolielétrica;EOL;1;20.00;3;2018;24/07/2019 00:00
+18;Central Geradora Eolielétrica;EOL;0;0.00;3;2019;24/07/2019 00:00
+19;Central Geradora Eolielétrica;EOL;0;0.00;6;2007;24/07/2019 00:00
+20;Central Geradora Eolielétrica;EOL;0;0.00;6;2009;24/07/2019 00:00
+21;Central Geradora Eolielétrica;EOL;0;0.00;6;2011;24/07/2019 00:00
+22;Central Geradora Eolielétrica;EOL;0;0.00;6;2013;24/07/2019 00:00
+23;Central Geradora Eolielétrica;EOL;3;10.50;6;2014;24/07/2019 00:00
+24;Central Geradora Eolielétrica;EOL;6;12.30;6;2015;24/07/2019 00:00
+25;Central Geradora Eolielétrica;EOL;3;4.90;6;2016;24/07/2019 00:00
+26;Central Geradora Eolielétrica;EOL;3;14.10;6;2017;24/07/2019 00:00
+27;Central Geradora Eolielétrica;EOL;3;8.80;6;2018;24/07/2019 00:00
+28;Central Geradora Eolielétrica;EOL;0;0.00;6;2019;24/07/2019 00:00
+29;Central Geradora Eolielétrica;EOL;0;0.00;9;2012;24/07/2019 00:00
+30;Central Geradora Eolielétrica;EOL;4;8.40;9;2013;24/07/2019 00:00
+31;Central Geradora Eolielétrica;EOL;1;6.60;9;2014;24/07/2019 00:00
+32;Central Geradora Eolielétrica;EOL;7;21.10;9;2015;24/07/2019 00:00
+33;Central Geradora Eolielétrica;EOL;1;24.00;9;2016;24/07/2019 00:00
+34;Central Geradora Eolielétrica;EOL;1;100.00;9;2017;24/07/2019 00:00
+35;Central Geradora Eolielétrica;EOL;0;0.00;9;2018;24/07/2019 00:00
+36;Central Geradora Eolielétrica;EOL;0;0.00;9;2019;24/07/2019 00:00
+37;Central Geradora Hidrelétrica;CGH;0;0.00;12;2008;24/07/2019 00:00
+38;Central Geradora Hidrelétrica;CGH;0;0.00;12;2011;24/07/2019 00:00
+39;Central Geradora Hidrelétrica;CGH;0;0.00;12;2012;24/07/2019 00:00
+40;Central Geradora Hidrelétrica;CGH;0;0.00;12;2013;24/07/2019 00:00
+41;Central Geradora Hidrelétrica;CGH;1;825.00;12;2014;24/07/2019 00:00
+42;Central Geradora Hidrelétrica;CGH;1;9.00;12;2015;24/07/2019 00:00
+43;Central Geradora Hidrelétrica;CGH;4;1980.50;12;2016;24/07/2019 00:00
+44;Central Geradora Hidrelétrica;CGH;18;25419.00;12;2017;24/07/2019 00:00
+45;Central Geradora Hidrelétrica;CGH;9;9953.00;12;2018;24/07/2019 00:00
+46;Central Geradora Hidrelétrica;CGH;0;0.00;3;2010;24/07/2019 00:00
+47;Central Geradora Hidrelétrica;CGH;0;0.00;3;2012;24/07/2019 00:00
+48;Central Geradora Hidrelétrica;CGH;0;0.00;3;2013;24/07/2019 00:00
+49;Central Geradora Hidrelétrica;CGH;0;0.00;3;2014;24/07/2019 00:00
+50;Central Geradora Hidrelétrica;CGH;0;0.00;3;2015;24/07/2019 00:00
+51;Central Geradora Hidrelétrica;CGH;0;0.00;3;2016;24/07/2019 00:00
+52;Central Geradora Hidrelétrica;CGH;5;6199.20;3;2017;24/07/2019 00:00
+53;Central Geradora Hidrelétrica;CGH;10;4940.70;3;2018;24/07/2019 00:00
+54;Central Geradora Hidrelétrica;CGH;16;21125.52;3;2019;24/07/2019 00:00
+55;Central Geradora Hidrelétrica;CGH;0;0.00;6;2007;24/07/2019 00:00
+56;Central Geradora Hidrelétrica;CGH;0;0.00;6;2009;24/07/2019 00:00
+57;Central Geradora Hidrelétrica;CGH;0;0.00;6;2011;24/07/2019 00:00
+58;Central Geradora Hidrelétrica;CGH;0;0.00;6;2013;24/07/2019 00:00
+59;Central Geradora Hidrelétrica;CGH;0;0.00;6;2014;24/07/2019 00:00
+60;Central Geradora Hidrelétrica;CGH;0;0.00;6;2015;24/07/2019 00:00
+61;Central Geradora Hidrelétrica;CGH;4;1716.00;6;2016;24/07/2019 00:00
+62;Central Geradora Hidrelétrica;CGH;4;3650.00;6;2017;24/07/2019 00:00
+63;Central Geradora Hidrelétrica;CGH;5;2074.08;6;2018;24/07/2019 00:00
+64;Central Geradora Hidrelétrica;CGH;6;2820.00;6;2019;24/07/2019 00:00
+65;Central Geradora Hidrelétrica;CGH;0;0.00;9;2012;24/07/2019 00:00
+66;Central Geradora Hidrelétrica;CGH;0;0.00;9;2013;24/07/2019 00:00
+67;Central Geradora Hidrelétrica;CGH;0;0.00;9;2014;24/07/2019 00:00
+68;Central Geradora Hidrelétrica;CGH;0;0.00;9;2015;24/07/2019 00:00
+69;Central Geradora Hidrelétrica;CGH;2;950.00;9;2016;24/07/2019 00:00
+70;Central Geradora Hidrelétrica;CGH;4;2485.00;9;2017;24/07/2019 00:00
+71;Central Geradora Hidrelétrica;CGH;3;3595.60;9;2018;24/07/2019 00:00
+72;Central Geradora Hidrelétrica;CGH;0;0.00;9;2019;24/07/2019 00:00
+73;Central Geradora Solar Fotovoltaica;UFV;1;25.00;12;2008;24/07/2019 00:00
+74;Central Geradora Solar Fotovoltaica;UFV;1;5.00;12;2011;24/07/2019 00:00
+75;Central Geradora Solar Fotovoltaica;UFV;2;9.44;12;2012;24/07/2019 00:00
+76;Central Geradora Solar Fotovoltaica;UFV;27;1139.12;12;2013;24/07/2019 00:00
+77;Central Geradora Solar Fotovoltaica;UFV;110;553.42;12;2014;24/07/2019 00:00
+78;Central Geradora Solar Fotovoltaica;UFV;642;4115.85;12;2015;24/07/2019 00:00
+79;Central Geradora Solar Fotovoltaica;UFV;1926;22177.94;12;2016;24/07/2019 00:00
+80;Central Geradora Solar Fotovoltaica;UFV;5131;51499.49;12;2017;24/07/2019 00:00
+81;Central Geradora Solar Fotovoltaica;UFV;12924;139024.49;12;2018;24/07/2019 00:00
+82;Central Geradora Solar Fotovoltaica;UFV;1;30.00;3;2010;24/07/2019 00:00
+83;Central Geradora Solar Fotovoltaica;UFV;2;413.00;3;2012;24/07/2019 00:00
+84;Central Geradora Solar Fotovoltaica;UFV;3;65.88;3;2013;24/07/2019 00:00
+85;Central Geradora Solar Fotovoltaica;UFV;37;293.98;3;2014;24/07/2019 00:00
+86;Central Geradora Solar Fotovoltaica;UFV;162;1163.10;3;2015;24/07/2019 00:00
+87;Central Geradora Solar Fotovoltaica;UFV;1145;8192.26;3;2016;24/07/2019 00:00
+88;Central Geradora Solar Fotovoltaica;UFV;2226;16183.95;3;2017;24/07/2019 00:00
+89;Central Geradora Solar Fotovoltaica;UFV;5948;67907.80;3;2018;24/07/2019 00:00
+90;Central Geradora Solar Fotovoltaica;UFV;14854;167934.49;3;2019;24/07/2019 00:00
+91;Central Geradora Solar Fotovoltaica;UFV;1;0.50;6;2007;24/07/2019 00:00
+92;Central Geradora Solar Fotovoltaica;UFV;0;0.00;6;2009;24/07/2019 00:00
+93;Central Geradora Solar Fotovoltaica;UFV;1;9.90;6;2011;24/07/2019 00:00
+94;Central Geradora Solar Fotovoltaica;UFV;6;66.00;6;2013;24/07/2019 00:00
+95;Central Geradora Solar Fotovoltaica;UFV;52;710.75;6;2014;24/07/2019 00:00
+96;Central Geradora Solar Fotovoltaica;UFV;220;1376.47;6;2015;24/07/2019 00:00
+97;Central Geradora Solar Fotovoltaica;UFV;1915;11194.11;6;2016;24/07/2019 00:00
+98;Central Geradora Solar Fotovoltaica;UFV;2786;24366.53;6;2017;24/07/2019 00:00
+99;Central Geradora Solar Fotovoltaica;UFV;6988;78825.53;6;2018;24/07/2019 00:00
+100;Central Geradora Solar Fotovoltaica;UFV;17159;195142.31;6;2019;24/07/2019 00:00
+101;Central Geradora Solar Fotovoltaica;UFV;1;1.50;9;2012;24/07/2019 00:00
+102;Central Geradora Solar Fotovoltaica;UFV;17;125.76;9;2013;24/07/2019 00:00
+103;Central Geradora Solar Fotovoltaica;UFV;96;942.33;9;2014;24/07/2019 00:00
+104;Central Geradora Solar Fotovoltaica;UFV;423;3014.92;9;2015;24/07/2019 00:00
+105;Central Geradora Solar Fotovoltaica;UFV;1767;12608.93;9;2016;24/07/2019 00:00
+106;Central Geradora Solar Fotovoltaica;UFV;3810;34698.12;9;2017;24/07/2019 00:00
+107;Central Geradora Solar Fotovoltaica;UFV;9279;107581.40;9;2018;24/07/2019 00:00
+108;Central Geradora Solar Fotovoltaica;UFV;904;15920.98;9;2019;24/07/2019 00:00
+109;Usina Termelétrica de Energia;UTE;0;0.00;12;2008;24/07/2019 00:00
+110;Usina Termelétrica de Energia;UTE;0;0.00;12;2011;24/07/2019 00:00
+111;Usina Termelétrica de Energia;UTE;0;0.00;12;2012;24/07/2019 00:00
+112;Usina Termelétrica de Energia;UTE;0;0.00;12;2013;24/07/2019 00:00
+113;Usina Termelétrica de Energia;UTE;0;0.00;12;2014;24/07/2019 00:00
+114;Usina Termelétrica de Energia;UTE;4;461.38;12;2015;24/07/2019 00:00
+115;Usina Termelétrica de Energia;UTE;8;2622.40;12;2016;24/07/2019 00:00
+116;Usina Termelétrica de Energia;UTE;11;1046.00;12;2017;24/07/2019 00:00
+117;Usina Termelétrica de Energia;UTE;15;2952.24;12;2018;24/07/2019 00:00
+118;Usina Termelétrica de Energia;UTE;0;0.00;3;2010;24/07/2019 00:00
+119;Usina Termelétrica de Energia;UTE;0;0.00;3;2012;24/07/2019 00:00
+120;Usina Termelétrica de Energia;UTE;0;0.00;3;2013;24/07/2019 00:00
+121;Usina Termelétrica de Energia;UTE;1;75.00;3;2014;24/07/2019 00:00
+122;Usina Termelétrica de Energia;UTE;1;1000.00;3;2015;24/07/2019 00:00
+123;Usina Termelétrica de Energia;UTE;4;349.60;3;2016;24/07/2019 00:00
+124;Usina Termelétrica de Energia;UTE;8;5886.68;3;2017;24/07/2019 00:00
+125;Usina Termelétrica de Energia;UTE;12;835.22;3;2018;24/07/2019 00:00
+126;Usina Termelétrica de Energia;UTE;9;4024.96;3;2019;24/07/2019 00:00
+127;Usina Termelétrica de Energia;UTE;0;0.00;6;2007;24/07/2019 00:00
+128;Usina Termelétrica de Energia;UTE;0;0.00;6;2009;24/07/2019 00:00
+129;Usina Termelétrica de Energia;UTE;0;0.00;6;2011;24/07/2019 00:00
+130;Usina Termelétrica de Energia;UTE;0;0.00;6;2013;24/07/2019 00:00
+131;Usina Termelétrica de Energia;UTE;0;0.00;6;2014;24/07/2019 00:00
+132;Usina Termelétrica de Energia;UTE;0;0.00;6;2015;24/07/2019 00:00
+133;Usina Termelétrica de Energia;UTE;8;5878.38;6;2016;24/07/2019 00:00
+134;Usina Termelétrica de Energia;UTE;12;3058.12;6;2017;24/07/2019 00:00
+135;Usina Termelétrica de Energia;UTE;12;6172.20;6;2018;24/07/2019 00:00
+136;Usina Termelétrica de Energia;UTE;10;2246.60;6;2019;24/07/2019 00:00
+137;Usina Termelétrica de Energia;UTE;0;0.00;9;2012;24/07/2019 00:00
+138;Usina Termelétrica de Energia;UTE;0;0.00;9;2013;24/07/2019 00:00
+139;Usina Termelétrica de Energia;UTE;1;35.00;9;2014;24/07/2019 00:00
+140;Usina Termelétrica de Energia;UTE;3;672.28;9;2015;24/07/2019 00:00
+141;Usina Termelétrica de Energia;UTE;9;1598.44;9;2016;24/07/2019 00:00
+142;Usina Termelétrica de Energia;UTE;12;2140.20;9;2017;24/07/2019 00:00
+143;Usina Termelétrica de Energia;UTE;29;5894.84;9;2018;24/07/2019 00:00
+144;Usina Termelétrica de Energia;UTE;0;0.00;9;2019;24/07/2019 00:00
